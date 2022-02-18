@@ -4,6 +4,10 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import onLeave from '../../Animation/onLeave';
 import afterLoad from '../../Animation/AfterLoad';
 import FirstPage from './FirstPage/FirstPage';
+import SecondPage from './SecondPage/SecondPage';
+import ThirdPage from './ThirdPage/ThirdPage';
+import FourthPage from './FourthPage/FourthPage';
+import FifthPage from './FifthPage/FifthPage';
 
 
 const fullpageOptions = {
@@ -29,16 +33,16 @@ function Home() {
                             <FirstPage></FirstPage>
                         </div>
                         <div className="section">
-                            {/* <SecondPage></SecondPage> */}
+                            <SecondPage></SecondPage>
                         </div>
                         <div className="section">
-                            {/* <ThirdPage></ThirdPage> */}
+                            <ThirdPage></ThirdPage>
                         </div>
                         <div className="section">
-                            {/* <FourthPage></FourthPage> */}
+                            <FourthPage></FourthPage>
                         </div>
                         <div className="section">
-                            {/* <FiifthPage></FiifthPage> */}
+                            <FifthPage></FifthPage>
                         </div>
                     </>
                 );

@@ -4,47 +4,47 @@ const afterLoad = (origin: any, destination: any, direction: any) => {
 
     switch (destination.index) {
         case 1:
-            gsap.from(".second-page-container", {
+            gsap.from(".secondPage-container", {
                 autoAlpha: 0,
             });
-            gsap.from(".second-page-text-area", {
+            gsap.from(".secondPage-title", {
                 autoAlpha: 0,
-                x: -880,
-                duration: 1.5,
+                y: -880,
+                duration: 3.5,
                 ease: "power4.out",
-                delay: .1
             });
             break;
         case 2:
-            gsap.from(".page-three-content", {
+            gsap.from(".thirdPage-container", {
                 autoAlpha: 0,
             });
-            gsap.from(".title_first", {
+            gsap.from(".card_first", {
                 autoAlpha: 0,
-                y: 420,
-                duration: 0.7,
+                y: -400,
+                duration: 0.2,
                 ease: "power4.out",
+                delay: 0.1,
             });
-            gsap.from(".title_second", {
+            gsap.from(".card_second", {
                 autoAlpha: 0,
-                y: -420,
-                duration: 0.7,
+                y: 400,
+                duration: 0.2,
                 ease: "power4.out",
                 delay: 0.3,
             });
-            gsap.from(".title_third", {
+            gsap.from(".card_third", {
                 autoAlpha: 0,
-                y: 420,
-                duration: 0.7,
+                y: -400,
+                duration: 0.2,
                 ease: "power4.out",
-                delay: 0.6,
+                delay: 0.5,
             });
-            gsap.from(".title_fourth", {
+            gsap.from(".card_fourth", {
                 autoAlpha: 0,
-                y: -420,
-                duration: 0.7,
+                y: 400,
+                duration: 0.2,
                 ease: "power4.out",
-                delay: 0.9,
+                delay: 0.7,
             });
             break;
         case 3:
@@ -59,7 +59,7 @@ const afterLoad = (origin: any, destination: any, direction: any) => {
             });
             gsap.from(".list-story", {
                 autoAlpha: 0,
-                x: -420,
+                x: -820,
                 duration: 1,
                 ease: "power4.out",
                 delay: 0.3,
@@ -74,6 +74,12 @@ const afterLoad = (origin: any, destination: any, direction: any) => {
                 x: 420,
                 stagger: 0.1,
                 duration: 1,
+                ease: "power4.out",
+            });
+            gsap.from(".fifth-title_box", {
+                autoAlpha: 0,
+                x: 1200,
+                duration: 2,
                 ease: "power4.out",
             });
             gsap.from(".fifth-contact", {
