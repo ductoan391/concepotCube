@@ -25,7 +25,6 @@ function Home() {
             scrollingSpeed={700}
             onLeave={onLeave}
             afterLoad={afterLoad}
-            // normalScrollElements={'.item-story'}
             render={() => {
                 return (
                     <>
