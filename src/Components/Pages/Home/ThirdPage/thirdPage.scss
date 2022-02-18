@@ -17,12 +17,6 @@
                 margin-right: 40px;
             }
 
-            .card_first {
-                img {
-                    height: 279.06px !important;
-                }
-            }
-
             .card {
                 width: 100%;
                 max-width: 365px;
@@ -72,6 +66,14 @@
     }
 }
 
+@media screen and (min-width: 1701px) {
+    .card_first {
+        img {
+            height: 279.06px !important;
+        }
+    }
+}
+
 @media screen and (min-width: 1485px) and (max-width: 1700px) {
     .thirdPage {
         .thirdPage-container {
@@ -86,6 +88,11 @@
                     margin-right: 30px;
                 }
 
+                .card_first {
+                    img {
+                        height: 244.66px !important;
+                    }
+                }
                 .card {
                     max-width: 320px;
                     cursor: default;
