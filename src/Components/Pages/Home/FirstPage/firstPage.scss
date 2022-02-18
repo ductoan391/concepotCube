@@ -3,6 +3,12 @@
     background-color: #1b0080;
     height: 100vh;
     overflow: hidden;
+    .logo {
+        position: absolute;
+        z-index: 99;
+        top: 8%;
+        left: calc(8% + 8px);
+    }
     .bg1 {
         position: absolute;
         bottom: calc(-25% - 5px);

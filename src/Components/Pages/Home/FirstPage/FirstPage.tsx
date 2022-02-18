@@ -5,11 +5,13 @@ import bg2 from "../../../../Assets/Images/bg-object-2.png";
 import bg3 from "../../../../Assets/Images/bg-object-3.png";
 import bg4 from "../../../../Assets/Images/bg-object-4.png";
 import bg5 from "../../../../Assets/Images/bg-object-5.png";
+import logo from "../../../../Assets/Images/logo-icon.png";
 
 
 function FirstPage() {
   return (
     <div className='firstPage'>
+      <img src={logo} alt="" className='logo' />
       <img src={bg1} alt="" className='bg1' />
       <img src={bg2} alt="" className='bg2' />
       <img src={bg3} alt="" className='bg3' />
